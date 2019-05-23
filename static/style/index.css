@@ -63,14 +63,18 @@
 }
 /* -------------------------------------------------------------------------- */
 #r3 { background: orange;
-  height:       46px;
-  width:       946px;
-  margin-top:   14px;
-  margin-right:  0px;
-  margin-bottom: 0px;
-  margin-left:  12px;
+  height:        46px;
+  width:        946px;
+  margin-top:    14px;
+  margin-right:   0px;
+  margin-bottom:  0px;
+  margin-left:   12px;
   border-radius: 13px;
 
   /* DEBUG */
   opacity: 0.5;
+}
+#r3 p {
+  padding-top: 10px;
+  padding-left: 17px;
 }
