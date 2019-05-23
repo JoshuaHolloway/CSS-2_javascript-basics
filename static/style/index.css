@@ -1,7 +1,22 @@
-#container {  
-    height: 1000px;
-    width: 1000px;
+#container {
+    height: 600px;
+    width: 970px;
     margin: 0 auto;
-    background-radius: 15px;
-    padding-top: 0px;
+    padding-top: 10px;
+    background-color: darkblue;
+
+    /* DEBUG */
+    background-image: url('./../images/jsloups.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#header { background: green;
+  height: 60px;
+  width: 945px;
+  margin-left: 12px;
+  border-radius: 8px;
+
+  /* DEBUG: */
+  opacity: 0.5;
 }
