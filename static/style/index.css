@@ -46,10 +46,12 @@
 }
 /* -------------------------------------------------------------------------- */
 #r2-c2 { background: yellow;
-  height:        415px;
+  height:        416px;
   width:         759px;
-  margin-left:   12px;
   margin-top:    16px;
+  margin-right:   0px;
+  margin-bottom:  0px;
+  margin-left:   12px;
   border-radius: 14px;
 
   /* DEBUG */
@@ -58,4 +60,17 @@
 #r2-c1, #r2-c2 {
   display: inline-block;
   vertical-align: top;
+}
+/* -------------------------------------------------------------------------- */
+#r3 { background: orange;
+  height:       46px;
+  width:       946px;
+  margin-top:   14px;
+  margin-right:  0px;
+  margin-bottom: 0px;
+  margin-left:  12px;
+  border-radius: 13px;
+
+  /* DEBUG */
+  opacity: 0.5;
 }
