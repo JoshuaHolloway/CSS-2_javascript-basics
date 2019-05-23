@@ -10,7 +10,7 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
-
+/* -------------------------------------------------------------------------- */
 /* Row-1 */
 #r1 { background: green;
   height: 60px;
@@ -32,7 +32,8 @@
     padding: left:  0px;
     font-size:   26.5px;
 }
-
+/* -------------------------------------------------------------------------- */
+/* Row-2 Column-1 */
 #r2-c1 { background: red;
   height:        188px;
   width:         169px;
@@ -42,4 +43,19 @@
 
   /* DEBUG */
   opacity: 0.5;
+}
+/* -------------------------------------------------------------------------- */
+#r2-c2 { background: yellow;
+  height:        415px;
+  width:         759px;
+  margin-left:   12px;
+  margin-top:    16px;
+  border-radius: 14px;
+
+  /* DEBUG */
+  opacity: 0.5;
+}
+#r2-c1, #r2-c2 {
+  display: inline-block;
+  vertical-align: top;
 }
