@@ -1,1 +1,1 @@
-# toy_trans-template
+# CSS-2_javascript-basics
